@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a4d6b1d-2223-4651-8b08-9ba9dea49ecc" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/hibernate_01$HibernateQueryDemo_testSQLQuery.ic" NAME="HibernateQueryDemo.testSQLQuery Coverage Results" MODIFIED="1542031349441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/hibernate_01$HibernateTest_testUpdate.ic" NAME="HibernateTest.testUpdate Coverage Results" MODIFIED="1542004260689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>edu.test.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollFromSource" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1667367222">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="3" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2247" />
+          <entry key="xml" value="564" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="2247" />
+          <entry key="XML" value="564" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/entity/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="812">
+              <caret line="45" column="108" selection-start-line="45" selection-start-column="108" selection-end-line="45" selection-end-column="108" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="392">
+              <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+              <folding>
+                <element signature="e#571#576#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/test/HibernateTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3696">
+              <caret line="139" selection-start-line="116" selection-start-column="4" selection-end-line="139" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/test/HibernateQueryDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/entity/User.hbm.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/uitl/HibernateUitl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XML" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/edu/entity/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/edu/uitl/HibernateUitl.java" />
+        <option value="$PROJECT_DIR$/src/edu/test/HibernateTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/edu/test/HibernateQueryDemo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="256" />
+    <option name="y" value="28" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hibernate-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate-01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hibernate-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hibernate-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hibernate-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hibernate-01" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="edu" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542031438365" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/web/WEB-INF/lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.HibernateQueryDemo.testSQLQuery">
+    <configuration name="HibernateQueryDemo.testCriteria" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.test.HibernateQueryDemo" />
+      <option name="METHOD_NAME" value="testCriteria" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateQueryDemo.testQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.test.HibernateQueryDemo" />
+      <option name="METHOD_NAME" value="testQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateQueryDemo.testSQLQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.test.HibernateQueryDemo" />
+      <option name="METHOD_NAME" value="testSQLQuery" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTest.tesDel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.test.HibernateTest" />
+      <option name="METHOD_NAME" value="tesDel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTest.testFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hibernate-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="edu.test" />
+      <option name="MAIN_CLASS_NAME" value="edu.test.HibernateTest" />
+      <option name="METHOD_NAME" value="testFormat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.HibernateTest.tesDel" />
+      <item itemvalue="JUnit.HibernateTest.testFormat" />
+      <item itemvalue="JUnit.HibernateQueryDemo.testQuery" />
+      <item itemvalue="JUnit.HibernateQueryDemo.testCriteria" />
+      <item itemvalue="JUnit.HibernateQueryDemo.testSQLQuery" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HibernateQueryDemo.testSQLQuery" />
+        <item itemvalue="JUnit.HibernateQueryDemo.testCriteria" />
+        <item itemvalue="JUnit.HibernateQueryDemo.testQuery" />
+        <item itemvalue="JUnit.HibernateTest.testFormat" />
+        <item itemvalue="JUnit.HibernateTest.tesDel" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a4d6b1d-2223-4651-8b08-9ba9dea49ecc" name="Default Changelist" comment="" />
+      <created>1541937289313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1541937289313</updated>
+      <workItem from="1541937293710" duration="4229000" />
+      <workItem from="1541988467539" duration="150000" />
+      <workItem from="1542002482922" duration="2559000" />
+      <workItem from="1542005640736" duration="7904000" />
+      <workItem from="1542073417349" duration="738000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="HibernateTest_tesDel - 2018.11.12 at 15h 34m 05s.xml">
+      <configuration name="HibernateTest.tesDel" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateTest_testFormat - 2018.11.12 at 15h 41m 08s.xml">
+      <configuration name="HibernateTest.testFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateTest_testFormat - 2018.11.12 at 21h 07m 01s.xml">
+      <configuration name="HibernateTest.testFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateTest_testFormat - 2018.11.12 at 21h 07m 42s.xml">
+      <configuration name="HibernateTest.testFormat" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryDemo_testQuery - 2018.11.12 at 21h 24m 33s.xml">
+      <configuration name="HibernateQueryDemo.testQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryDemo_testQuery - 2018.11.12 at 21h 27m 41s.xml">
+      <configuration name="HibernateQueryDemo.testQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryDemo_testCriteria - 2018.11.12 at 21h 49m 58s.xml">
+      <configuration name="HibernateQueryDemo.testCriteria" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryDemo_testSQLQuery - 2018.11.12 at 21h 58m 51s.xml">
+      <configuration name="HibernateQueryDemo.testSQLQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryDemo_testSQLQuery - 2018.11.12 at 22h 02m 32s.xml">
+      <configuration name="HibernateQueryDemo.testSQLQuery" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HibernateQueryDemo_testSQLQuery - 2018.11.12 at 22h 03m 08s.xml">
+      <configuration name="HibernateQueryDemo.testSQLQuery" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15580000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="28" width="1920" height="1052" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.16577253" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" weight="0.3299356" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34428087" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997735" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32930845" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3295583" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3299356" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3299356" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3299356" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16577253" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" side_tool="true" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34428087" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.3295583" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.3299356" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/edu/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="45" column="108" selection-start-line="45" selection-start-column="108" selection-end-line="45" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="71" selection-start-line="14" selection-start-column="71" selection-end-line="14" selection-end-column="71" />
+          <folding>
+            <element signature="e#571#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/test/HibernateTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3696">
+          <caret line="139" selection-start-line="116" selection-start-column="4" selection-end-line="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/entity/User.hbm.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/uitl/HibernateUitl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/test/HibernateQueryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>hibernate-01:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>hibernate-01</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
