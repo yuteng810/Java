@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="edu.entity.Order" table="Order">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="orderNo" column="orderno"/>
+        <property name="date" column="date"/>
+        <property name="total" column="total"/>
+        <many-to-one name="customer" column="customer_id" class="edu.entity.Customer"/>
+
+    </class>
+
+
+</hibernate-mapping>

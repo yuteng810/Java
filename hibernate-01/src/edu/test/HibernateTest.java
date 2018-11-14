@@ -97,7 +97,7 @@ public class HibernateTest {
         Transaction tx = session.beginTransaction();
 
 
-        for (int i = 0; i < 1000000; i++) { //插入10万条数据
+        for (int i = 0; i < 100000; i++) { //插入10万条数据
             User user = new User();
             user.setUsername("name" + i);
             user.setPassword("pwd" + i);

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="edu.entity.Customer" table="customer">
+        <id name="id" column="id">
+            <generator class="native"/>
+        </id>
+        <property name="userName" column="username"/>
+        <property name="password" column="password"/>
+        <property name="realName" column="realname"/>
+        <property name="address" column="address"/>
+        <property name="mobile" column="mobile"/>
+        <property name="age" column="age"/>
+
+    </class>
+</hibernate-mapping>
