@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="edu.hibernate.entity.Customer" table="t_customer">
+        <id name="cid" column="cid">
+            <generator class="native"/>
+        </id>
+        <property name="custName" column="cusrname"/>
+        <property name="custLevel" column="custlevel"/>
+        <property name="custSource" column="custsource"/>
+        <property name="custPhone" column="custphone"/>
+        <property name="custMobile" column="custmobile"/>
+
+        <set name="setLinkMan" cascade="save-update,delete" inverse="true">
+            <key column="clid"/>
+            <one-to-many class="edu.hibernate.entity.LinkMan"/>
+        </set>
+    </class>
+</hibernate-mapping>
